@@ -1006,9 +1006,7 @@ class Server extends EventEmitter {
 	}
 }
 
-const connection = await mongoose
-	.createConnection(mongodbHostname)
-	.asPromise();
+const connection = await mongoose.createConnection(mongodbHostname).asPromise();
 const server = new Server(connection);
 server.start();
 
