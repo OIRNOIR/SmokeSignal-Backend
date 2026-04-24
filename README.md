@@ -11,7 +11,7 @@ It isn't currently actively maintained, and hasn't been actively developed since
 wrote it as closed source. If you're reading this, I've released the project as open source as
 of October 2025, mostly as an educational proof of concept, but also to showcase my experience.
 
-This backend requires a partner frontend, located [here](https://github.com/OIRNOIR/SmokeSignal-Frontend).
+This backend requires a partner frontend, located [here](https://git.oirnoir.dev/OIRNOIR/SmokeSignal-Frontend).
 First replace all instances of `FRONT_HOSTNAME` with your frontend's hostname and
 `MONGODB_HOSTNAME` with the hostname of your mongodb server.
 These are just in index.ts. Then, make a copy of
